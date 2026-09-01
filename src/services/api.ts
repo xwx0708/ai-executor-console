@@ -425,6 +425,6 @@ export async function listNotifications(): Promise<AppNotification[]> {
 
 /** POST /api/notifications/read-all */
 export async function markAllNotificationsRead(): Promise<{ ok: true }> {
-  db.markAllNotificationsRead()
+  db.markNotificationsRead()
   return delay({ ok: true })
 }
