@@ -111,6 +111,14 @@ src/
 - ⏳ 未做：真实后端、真实认证——第二阶段。
 - 用户偏好：先发指令再动手；直觉提议要按实际情况肯定或反驳。
 
+## 版本与备份
+
+- GitHub 仓库（私有）：https://github.com/xwx0708/ai-executor-console
+- V1 前端原型全部源码（88 个文件）已于 2026-09-01 云端备份到 `main` 分支。
+- 注意：`package-lock.json` 体积较大未随首批上传，待本机首次 `git push` 时一并补传。
+- 本机 git 历史与远程首批提交不同源（首批经 GitHub API 写入），已通过
+  `git fetch + git reset --soft origin/main` 对齐，之后正常 `git push/pull` 即可。
+
 ## 待办 / 想法池（用户提过但未确认的）
 
 - 左上角预留位未来放什么（待定）。
